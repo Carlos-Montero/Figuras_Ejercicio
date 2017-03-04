@@ -2,8 +2,8 @@
  * Created by Carlos on 01/03/2017.
  */
 public class Triangulo implements Figura {
-    double altura;
-    double base;
+    private double altura;
+    private double base;
 
     public Triangulo(double altura, double base) {
         this.altura = altura;
@@ -11,6 +11,6 @@ public class Triangulo implements Figura {
     }
 
     public double area() {
-        return ((base * altura) / 2);
+        return ((this.base * this.altura) / 2);
     }
 }

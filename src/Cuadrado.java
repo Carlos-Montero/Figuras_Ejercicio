@@ -2,7 +2,7 @@
  * Created by Carlos on 01/03/2017.
  */
 public class Cuadrado extends Rectangulo {
-    double lado;
+    private double lado;
 
     public Cuadrado(double lado1, double lado2, double lado) {
         super(lado1, lado2);
@@ -10,6 +10,6 @@ public class Cuadrado extends Rectangulo {
     }
 
     public double area(){
-        return lado*lado;
+        return this.lado*this.lado;
     }
 }

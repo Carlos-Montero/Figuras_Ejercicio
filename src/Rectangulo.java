@@ -2,8 +2,8 @@
  * Created by Carlos on 01/03/2017.
  */
 public class Rectangulo implements Figura {
-    double lado1;
-    double lado2;
+    private double lado1;
+    private double lado2;
 
     public Rectangulo(double lado1, double lado2) {
         this.lado1 = lado1;
@@ -12,6 +12,6 @@ public class Rectangulo implements Figura {
 
     public double area(){
 
-        return lado1*lado2;
+        return this.lado1*this.lado2;
     }
 }

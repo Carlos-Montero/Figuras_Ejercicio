@@ -2,7 +2,7 @@
  * Created by Carlos on 01/03/2017.
  */
 public class Circulo implements Figura{
-    double radio;
+    private double radio;
     double pi=3.1416;
 
     public Circulo(double radio, double pi) {
@@ -11,6 +11,8 @@ public class Circulo implements Figura{
     }
 
     public double area(){
-        return pi*(radio*radio);
+
+        return this.pi*(this.radio*this.radio);
     }
 }
+
