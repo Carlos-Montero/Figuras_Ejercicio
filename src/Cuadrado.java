@@ -1,11 +1,11 @@
 /**
  * Created by Carlos on 01/03/2017.
  */
-public class Cuadrado extends Rectangulo {
+public class Cuadrado extends Figura {
     private double lado;
 
-    public Cuadrado(double lado1, double lado2, double lado) {
-        super(lado1, lado2);
+    public Cuadrado(double lado) {
+
         this.lado = lado;
     }
 

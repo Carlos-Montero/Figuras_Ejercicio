@@ -1,7 +1,8 @@
 /**
- * Created by Carlos on 01/03/2017.
+ * Created by Carlos on 08/03/2017.
  */
-public interface Figura {
+public abstract class Figura {
 
-    double area();
+    public abstract double area();
+
 }

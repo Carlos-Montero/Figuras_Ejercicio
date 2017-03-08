@@ -1,18 +1,17 @@
-/**
+import static java.lang.Math.PI;/**
  * Created by Carlos on 01/03/2017.
  */
-public class Circulo implements Figura{
+public class Circulo extends Figura {
     private double radio;
-    double pi=3.1416;
 
-    public Circulo(double radio, double pi) {
+
+    public Circulo(double radio) {
         this.radio = radio;
-        this.pi = pi;
     }
 
     public double area(){
 
-        return this.pi*(this.radio*this.radio);
+        return PI*(this.radio*this.radio);
     }
 }
 

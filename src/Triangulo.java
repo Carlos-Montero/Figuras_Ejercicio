@@ -1,7 +1,7 @@
 /**
  * Created by Carlos on 01/03/2017.
  */
-public class Triangulo implements Figura {
+public class Triangulo extends Figura {
     private double altura;
     private double base;
 

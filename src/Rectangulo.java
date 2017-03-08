@@ -1,7 +1,7 @@
 /**
  * Created by Carlos on 01/03/2017.
  */
-public class Rectangulo implements Figura {
+public class Rectangulo extends Figura {
     private double lado1;
     private double lado2;
 
